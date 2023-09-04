@@ -5,19 +5,45 @@
   src: url('./assets/Rubber-Duck.ttf') format('truetype');
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('./assets/img.png');
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-color: #000;
   color: #fff;
 }
 
+p {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+ol {
+  padding-inline-start: 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+ol li {
+  margin-bottom: 1rem;
+}
+
+ol li ul {
+  margin-top: 1rem;
+}
+
 code {
+  background-color: #121212;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

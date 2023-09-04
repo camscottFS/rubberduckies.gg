@@ -12,10 +12,10 @@ export default function Navigation() {
       <LinkContainer>
         <ul>
           <li>
-            <a href="#">Wipe Schedule</a>
+            <a href="#wipe-schedule">Wipe Schedule</a>
           </li>
           <li>
-            <a href="#">Rules</a>
+            <a href="#rules">Rules</a>
           </li>
           <li>
             <a href="#">Ranks</a>

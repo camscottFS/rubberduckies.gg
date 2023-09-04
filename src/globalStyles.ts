@@ -97,9 +97,50 @@ export const Button = styled.a`
   }
 `;
 
+export const ButtonSmall = styled.a`
+  background-color: #fdbe18;
+  color: #12202a;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.25s;
+  &:hover {
+    background: #12202a;
+    color: #fdbe18;
+  }
+`;
+
 export const GlobalColoredHeaderH2 = styled.h2`
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #fdbe18;
   font-size: 3rem;
 `
+
+export const ServerContainer = styled.div`
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+`;
+
+export const ServerItem = styled.div`
+  padding: 20px;
+  border-radius: 0.25rem;
+  background-color: #12202a;
+  p {
+    margin-bottom: 2rem;
+  }
+  h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.75rem;
+  }
+  code {
+    font-size: 0.75rem;
+  }
+`;
+
